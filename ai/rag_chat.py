@@ -6,7 +6,7 @@ import snowflake.connector
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() 
 
 EMBEDDING_MODEL = "text-embedding-3-small"
 CHAT_MODEL = "gpt-4o-mini"
